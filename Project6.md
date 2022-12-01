@@ -28,7 +28,7 @@ Interesting fact: MySQL is an open-source relational database management system.
 
 `sudo apt-get install mysql-server`
 
-![MySql Server Install](./image/mysql-server-install-status.PNG)
+![MySql Server Install](./image/mysql-server-install-output.PNG)
 
 - create user in mysql server:
 
@@ -54,7 +54,7 @@ Interesting fact: MySQL is an open-source relational database management system.
 
 `sudo apt-get install mysql-client`
 
-![MySql Client Install](./image/mysql-client-install-status.PNG)
+![MySql Client Install](./image/mysql-clientr-install-output.PNG)
 
 - By default, both of your EC2 virtual servers are located in the same local virtual network, so they can communicate to each other using local IP addresses. Use mysql server's local IP address to connect from mysql client. MySQL server uses TCP port 3306 by default, so you will have to open it by creating a new entry in ‘Inbound rules’ in ‘mysql server’ Security Groups. For extra security, do not allow all IP addresses to reach your ‘mysql server’ – allow access only to the specific local IP address of your ‘mysql client’.
 
