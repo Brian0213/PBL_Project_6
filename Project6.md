@@ -1,11 +1,11 @@
-## Documentation for Project 5: IMPLEMENT A CLIENT SERVER ARCHITECTURE USING MYSQL DATABASE MANAGEMENT SYSTEM (DBMS)
+# Documentation for Project 5: IMPLEMENT A CLIENT SERVER ARCHITECTURE USING MYSQL DATABASE MANAGEMENT SYSTEM (DBMS)
 
 - TASK – Implement a Client Server Architecture using MySQL Database Management System (DBMS).
 To demonstrate a basic client-server using MySQL Relational Database Management System (RDBMS), follow the below instructions
 
 Create and configure two Ubuntu-based virtual servers (EC2 instances in AWS):
 
-**Preparing prerequisites**
+## Preparing prerequisites
 
 - Create two new EC2 Instance of t2.nano family with Ubuntu Server 20.04 LTS (HVM) image.
 
